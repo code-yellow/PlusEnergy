@@ -1,4 +1,3 @@
 # PlusEnergy
-PhilipsHackathon
 
 Test
