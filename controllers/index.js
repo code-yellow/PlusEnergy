@@ -157,17 +157,17 @@ module.exports = function (router) {
                 else
                     finalCategory = kpiCat;
 
-                var selectedCategory = finalCategory;
+                var selectedCategory = "2";
                 var activitySuggestions = [];
 
                 activities.forEach(function(activity){
-                    console.log(activity.category);
+                    //console.log(activity.category);
                     if(activity.category === selectedCategory) {
                         activitySuggestions.push(activity);
                     }
                 });
 
-                console.log("VIRAT "+activitySuggestions.length);
+                //console.log("V "+activitySuggestions.length);
 
                 //parse json array to get category
 

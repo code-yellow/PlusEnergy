@@ -54,7 +54,7 @@ var Twitter = function () {
                 if(data[0].text.indexOf("garden") > -1) {
                     cat = "2";
                 }
-                if(data[0].text.indexOf("hiking") > -1) {
+                if(data[0].text.indexOf("hike") > -1) {
                     cat = "3";
                 }
                 if(data[0].text.indexOf("mma") > -1) {
