@@ -62,7 +62,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand" href="#">Act-Traq</a>
+                          <a class="navbar-brand" href="#">ActTraq</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                           <ul class="nav navbar-nav navbar-right">
@@ -168,8 +168,9 @@
                                         <div class="col-md-4">
                                         <h4>Location: {distance}</h4>
                                         </div>
-                                        <div class="col-md-8" align="right">
-                                        <button type="button" class="btn btn-warning" style="width:120px;">I'm in</button>
+                                        <div class="col-md-8" align="center">
+                                        <button type="button" class="btn btn-warning" style="width:60px;">I'm in</button>&nbsp;
+                                        <button type="button" class="btn btn-primary" style="width:180px;">Challenge a Co-Worker</button>
                                         </div>
                                       </div>
 
