@@ -95,7 +95,13 @@
     "imageURL": "http://www.blacktiedancestudio.com/wordpress/wordpress/wp-content/uploads/2014/04/tc_012807_0032.jpg",
     "title": "Ballroom Dancing Class - 60 minutes",
     "description": "A set of partner dances, which are enjoyed both socially and competitively around the world",
-    "distance": "3 miles"
+    "distance": "3 miles",
+    "reward" : {
+      "title" : "Genesis Ballroom Dance School",
+      "imageURL" : "http://s3-media3.fl.yelpcdn.com/bphoto/pasbNy6KAOSSQc_bmxwS3g/l.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "66"
+    }
 
   },
   {
@@ -103,83 +109,155 @@
     "imageURL": "http://grilloservices.com/wp-content/uploads/2011/11/Portrait-of-a-family-gardening..jpg",
     "title": "Community Gardening - 90 minutes",
     "description": "Builds community by increasing and enhancing community gardening and greening across the community ",
-    "distance": "1.4 miles"
+    "distance": "1.4 miles",
+    "reward" : {
+      "title" : "Plant Warehouse",
+      "imageURL" : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnlY6xZvSxx_XbJKkkybtU8ep6wS0kdEE3PCMS4NGHlRZYfHXq",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "2",
     "imageURL": "https://s-media-cache-ak0.pinimg.com/originals/34/b5/e9/34b5e9f5f238a1692e8a02ee0386b3cc.jpg",
     "title": "Acroyoga Class - 45 minutes",
     "description": "A physical practice which combines yoga and acrobatics",
-    "distance": "0.8 miles"
+    "distance": "0.8 miles",
+    "reward" : {
+      "title" : "Free pass for a session at Red Panda Acrobats",
+      "imageURL" : "http://www.redpanda2000.com/gallery/thumbnail/gallery5.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "3",
-    "imageURL": "children",
+    "imageURL": "http://s3-media4.fl.yelpcdn.com/bphoto/PfpBD4OVk4-Q1LF8TQk0UQ/l.jpg",
     "title": "Water polo at local club - 1.5 hours",
     "description": "At the local community swimming pool, playing pick-up water polo",
-    "distance": "1.2 miles"
+    "distance": "1.2 miles",
+    "reward" : {
+    "title" : "Alameda Waterpolo Club - 1 month free subscription",
+    "imageURL" : "http://s3-media4.fl.yelpcdn.com/bphoto/PfpBD4OVk4-Q1LF8TQk0UQ/l.jpg",
+    "status" : "Joe is ahead of you",
+    "progress" : "36"
+  }
   },
   {
     "category": "3",
-    "imageURL": "children",
+    "imageURL": "http://www.corepoweryoga.com/sites/default/files/IMCE/community/filler_image.jpg",
     "title": "Power yoga - 1 hour",
     "description": "An intensive yoga class focused on holding poses to build strength in the core",
-    "distance": "0.4 miles"
+    "distance": "0.4 miles",
+    "reward" : {
+      "title" : "Membership Discount at Core Power Yoga",
+      "imageURL" : "http://www.corepoweryoga.com/sites/default/files/IMCE/community/filler_image.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "3",
-    "imageURL": "children",
+    "imageURL": "http://s3-media3.fl.yelpcdn.com/bphoto/RxDudWguPNOekZTAdZhXCw/l.jpg",
     "title": "Pilates reformer - 1 hour",
     "description": "Pilates on the reformer to exercise muscles that are hard to strengthen and lengthen on the mat",
-    "distance": "0.6 miles"
+    "distance": "0.6 miles",
+    "reward" : {
+      "title" : "Discount !!! @ Pilates Proworks",
+      "imageURL" : "http://s3-media4.fl.yelpcdn.com/bphoto/0qcPpiCnbpf30gVXVkwKsg/l.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "3",
-    "imageURL": "children",
+    "imageURL": "http://s3-media3.fl.yelpcdn.com/bphoto/VEl0D9LjL8CP30PzMLJbPg/l.jpg",
     "title": "Barre burn - 1 hour",
     "description": "Exercises are drawn from Ballet to strengthen the core muscles and to re-align and re-balance the body anatomy and muscles",
-    "distance": "0.9 miles"
+    "distance": "0.9 miles",
+    "reward" : {
+      "title" : "Free pass for Pure Barre",
+      "imageURL" : "http://s3-media2.fl.yelpcdn.com/bphoto/_31xk4knH-MzqCW4-5cqhA/l.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "3",
-    "imageURL": "children",
+    "imageURL": "http://s3-media2.fl.yelpcdn.com/bphoto/kEsVFGjuSKPO_x1jCvjZzw/o.jpg",
     "title": "City hiking meetup - 1 hour",
     "description": "Joining the local meetup for a hiking path",
-    "distance": "1.2 miles"
+    "distance": "1.2 miles",
+    "reward" : {
+      "title" : "Hike it Out- Meetup Group",
+      "imageURL" : "http://s3-media4.fl.yelpcdn.com/bphoto/R7g7wXsYUPDtcSvtR4P9XA/l.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "4",
-    "imageURL": "children",
+    "imageURL": "http://www.ab-mma.com/wp-content/uploads/2012/03/photo-12-300x225.jpg",
     "title": "Mixed martial arts - 2 hours",
     "description": "A standard Mixed Martial Arts class combining drills and then sparring in striking and grappling",
-    "distance": "2 miles"
+    "distance": "2 miles",
+    "reward" : {
+      "title" : "Membership at MMA Pros",
+      "imageURL" : "http://s3-media1.fl.yelpcdn.com/bphoto/G8B9RVK81hQqohVd9-y5FA/l.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "4",
-    "imageURL": "children",
+    "imageURL": "http://s3-media3.fl.yelpcdn.com/bphoto/0f7ky0PY_ey5_Cpydeq1ag/l.jpg",
     "title": "Soul cycle - 1.5 hours",
     "description": "Rhythmic cycling that makes it a dynamic and challenging workout",
-    "distance": "1.1 miles"
+    "distance": "1.1 miles",
+    "reward" : {
+      "title" : "Soul Cycle MemberShip Discount !!!",
+      "imageURL" : "https://77861ea9472dc18d4219-eac685bd65ad1e27603f37681401f52f.ssl.cf2.rackcdn.com/bikes.jpgg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "44"
+    }
   },
   {
     "category": "4",
-    "imageURL": "children",
+    "imageURL": "http://s3-media4.fl.yelpcdn.com/bphoto/-lUpQvE2VFKWWkA3N5aqog/l.jpg",
     "title": "Local Nike running group - 1 hour",
     "description": "Meet at the Nike store to join the running group that jogs around the city",
-    "distance": "0.7 miles"
+    "distance": "0.7 miles",
+    "reward" : {
+      "title" : "Join the Run !!!",
+      "imageURL" : "http://s3-media1.fl.yelpcdn.com/bphoto/ee5z2bM_ho9kNuM6JY-foA/l.jpg",
+      "status" : "Joe is ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "4",
-    "imageURL": "children",
+    "imageURL": "http://smartworkout.net/blog/wp-content/uploads/2011/09/Kickboxing-1.jpg",
     "title": "Kickboxing - 1 hour",
     "description": "A high octane workout that involves drilling and sparring",
-    "distance": "1.5 miles"
+    "distance": "1.5 miles",
+    "reward" : {
+      "title" : "KickBoxing Coaching for Free",
+      "imageURL" : "http://fitforlife-teensports.weebly.com/uploads/1/4/9/8/14986142/8764556_orig.jpg?0",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "4",
-    "imageURL": "children",
+    "imageURL": "http://images.iop.org/objects/phw/news/13/12/2/cart1.jpg",
     "title": "Rowing at the local club - 45 minutes",
     "description": "Join the local rowing club for an intense workout on the river",
-    "distance": "0.5 miles"
+    "distance": "0.5 miles",
+    "reward" : {
+      "title" : "Rowing Club Membership Discount",
+      "imageURL" : "http://texasrowingcoach.com/wp-content/uploads/2012/06/rowing_machine_txrowing.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   }
 ]
