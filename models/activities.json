@@ -16,7 +16,7 @@
     "category": "1",
     "imageURL": "http://upload.wikimedia.org/wikipedia/en/archive/8/8f/20140209164049!Henri_Matisse_Self-Portrait_in_a_Striped_T-shirt_(1906).jpg",
     "title": "Visit museum gallery - 30 min",
-    "description": "Your local Dallas Modern Art museum is hosting an exhibit on Matisse! Go check it out and learn about his mastery of the language of color.",
+    "description": "Your local Dallas Modern Art museum is hosting an exhibit on Matisse! Go check it out and learn about his mastery.",
     "distance": "1.5 miles",
     "reward" : {
       "title" : "City Art Gallery - Collect a free souvenir worth $30 at the gallery store",
@@ -56,7 +56,13 @@
     "imageURL": "http://www.shoreculturalcentre.com/Resources/Pictures/paint%20brushes.jpg",
     "title": "Painting/Sculpture Class",
     "description": "Exploration of the min",
-    "distance": "0.8 miles"
+    "distance": "0.8 miles",
+    "reward" : {
+      "title" : "Adventures in Clay - one free session",
+      "imageURL" : "http://dikarevart.com/images/front4.jpg",
+      "status" : "Bill is ahead of you for this reward",
+      "progress" : "60"
+    }
   },
   {
     "category": "2",
