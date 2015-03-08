@@ -82,42 +82,75 @@
                         <div class="row">
                           <div class="col-sm-3 col-md-2 sidebar">
                             <ul class="nav nav-sidebar">
-                              <li class="active" id="liOverview"><a href="#" id="overviewLink">Overview <span class="sr-only">(current)</span></a></li>
+                              <li class="active" id="liOverview"><a href="#" id="overviewLink">Activities <span class="sr-only">(current)</span></a></li>
                               <li id="liReward"><a href="#" id="rewardLink">Rewards</a></li>
-                              <li><a href="#">Activities</a></li>
-                              <li><a href="#">Diet</a></li>
                             </ul>
 
                           </div>
                           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                             <h1 class="page-header">Dashboard</h1>
+                              <h3 align="right">3045</h3>
 
                             <div class="row placeholders">
-                              <div class="col-xs-6 col-sm-3 placeholder">
-                               <!-- <img data-src="holder.js/200x200/auto/sky" class="img-responsive" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzBEOEZEQiIvPjxnPjx0ZXh0IHg9Ijc0LjA0Njg3NSIgeT0iMTAwIiBzdHlsZT0iZmlsbDojRkZGRkZGO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true">-->
-                                <button type="button" class="btn btn-warning">{sleepData.trend.current}/{sleepData.trend.previous}</button>
-                                <!-- <img src="holder.js/200x200/auto/sky" alt="SleepMetrics" class="img-thumbnail">-->
-                                  <h4>Sleep</h4>
+
+
+
+
+                                <div class="col-xs-6 col-sm-3 placeholder" style="background-color:#337ab7;padding-bottom: 20px;color: #FFFFFF">
+                                  <h3>{sleepData.trend.current} / {sleepData.trend.previous}</h3><img src="../css/images/nav_down.png"/><h4>Sleep</h4>
                                 </div>
-                                <div class="col-xs-6 col-sm-3 placeholder">
+                                <div class="col-xs-6 col-sm-3 placeholder" style="background-color:#5cb85c;padding-bottom: 20px;color: #FFFFFF">
                                <!--   <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="200x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzM5REJBQyIvPjxnPjx0ZXh0IHg9Ijc0LjA0Njg3NSIgeT0iMTAwIiBzdHlsZT0iZmlsbDojMUUyOTJDO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true">-->
-                                    <button type="button" class="btn btn-success">{stepsData.trend.current}/{stepsData.trend.previous}</button>
-                                    <h4>Number of Steps</h4>
+                                    <h3>{stepsData.trend.current} / {stepsData.trend.previous}</h3><img src="../css/images/nav_down.png"/>
+                                    <h4>Steps</h4>
                                   </div>
-                                  <div class="col-xs-6 col-sm-3 placeholder">
+                                  <div class="col-xs-6 col-sm-3 placeholder" style="background-color:#5bc0de;padding-bottom: 20px;color: #FFFFFF">
                                     <!--       <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="200x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzBEOEZEQiIvPjxnPjx0ZXh0IHg9Ijc0LjA0Njg3NSIgeT0iMTAwIiBzdHlsZT0iZmlsbDojRkZGRkZGO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true">-->
-                                    <button type="button" class="btn btn-info">{weightData.trend.current}/{weightData.trend.previous}  <span class="badge">!!!!</span></button>
+                                    <h3>{weightData.trend.current} / {weightData.trend.previous} </h3><img src="../css/images/nav_up.png"/>
                                       <h4>Weight</h4>
                                     </div>
-                                    <div class="col-xs-6 col-sm-3 placeholder">
+                                    <div class="col-xs-6 col-sm-3 placeholder" style="background-color:#d9534f;padding-bottom: 20px;color: #FFFFFF">
                                       <!--<img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="200x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzM5REJBQyIvPjxnPjx0ZXh0IHg9Ijc0LjA0Njg3NSIgeT0iMTAwIiBzdHlsZT0iZmlsbDojMUUyOTJDO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L2c+PC9zdmc+" data-holder-rendered="true">-->
-                                      <button type="button" class="btn btn-danger">{moodData.trend.current}/{moodData.trend.previous}</button>
-                                        <h4>Heart Rate</h4>
+                                      <h3>{moodData.trend.current} / {moodData.trend.previous}</h3> <img src="../css/images/nav_right.png"/>
+                                        <h4>Mood</h4>
                                       </div>
                                     </div>
 
                                   <div id="rewardTab" class="hide">
                                       <h2 class="sub-header">Rewards</h2>
+                                      <div>
+                                        {#activitySuggestion}
+
+                                            <div class="container-fluid" style="background-color:#DFF0D8;width: 75%;">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                      {reward.title}
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img src="{reward.imageURL}" height="200" width="200">
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                      {description}
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:{reward.progress}%">
+                                                                <span class="sr-only">60% Complete (warning)</span>
+                                                            </div>
+                                                        </div>{reward.progress}%
+                                                    </div>
+                                                    <div class="col-md-9" align="right">
+                                                        {reward.status}
+                                                    </div>
+                                                </div>
+                                            </div><br/><br/>
+
+                                        {/activitySuggestion}
+                                      </div>
                                   </div>
 
 
@@ -126,7 +159,7 @@
                                     <div>
                                         {#activitySuggestion}
 
-                                            <div class="container-fluid" style="background-color:#DFF0D8;width: 60%;">
+                                            <div class="container-fluid" style="background-color:#DFF0D8;width: 75%;">
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                      {title}
