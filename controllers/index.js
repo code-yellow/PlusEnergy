@@ -8,6 +8,7 @@ var activities = require('../models/activities.json');
 var Client = require('node-rest-client').Client;
 var client = new Client();
 var async = require('async');
+var Twitter = require('../models/twitter');
 
 module.exports = function (router) {
 
@@ -67,6 +68,16 @@ module.exports = function (router) {
                         console.log('MOOD DATA '+moodData.entry.length);
                         callback(null, moodData);
                     });
+                },
+                socialFeed : function(callback) {
+
+                    var twitter = new Twitter();
+
+                    twitter.findTwitterFeeds('madhanrt',function(err, cat){
+                        console.log("---------------------------------->>"+cat);
+                        callback(null, cat);
+                    });
+
                 }
             },function(err, result) {
 

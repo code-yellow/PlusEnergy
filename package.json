@@ -13,7 +13,8 @@
         "engine-munger": "^0.2.0",
         "express": "^4.3.0",
         "node-rest-client":"*",
-        "async":"~0.2.9"
+        "async":"~0.2.9",
+        "twit" : "~1.1.18"
     },
     "devDependencies": {
         "mocha": "^1.18.0",
