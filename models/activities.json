@@ -4,28 +4,52 @@
     "imageURL": "http://i.huffpost.com/gen/1405484/thumbs/o-MEDITATION-facebook.jpg",
     "title": "Meditation - 30 min",
     "description": "Exploration of the intimate connection of the mind and body. You will leave this class feeling relaxed and content.",
-    "distance": "0.5 miles"
+    "distance": "0.5 miles",
+    "reward" : {
+      "title" : "QuietPath Meditation - 2 Months Free Membership",
+      "imageURL" : "http://s3-media2.fl.yelpcdn.com/bphoto/JI8zRrDj7DEWvT5NiuieQA/l.jpg",
+      "status" : "Joe is ahead of you for this reward",
+      "progress" : "30"
+    }
   },
   {
     "category": "1",
     "imageURL": "http://upload.wikimedia.org/wikipedia/en/archive/8/8f/20140209164049!Henri_Matisse_Self-Portrait_in_a_Striped_T-shirt_(1906).jpg",
     "title": "Visit museum gallery - 30 min",
-    "description": "Your local Dallas Modern Art museum is hosting an exhibit on Matisse! Go check it out and learn about his mastery of the language of color. ",
-    "distance": "1.5 miles"
+    "description": "Your local Dallas Modern Art museum is hosting an exhibit on Matisse! Go check it out and learn about his mastery of the language of color.",
+    "distance": "1.5 miles",
+    "reward" : {
+      "title" : "City Art Gallery - Collect a free souvenir worth $30 at the gallery store",
+      "imageURL" : "http://www.ibiblio.org/wm/paint/auth/matisse/matisse.mme-matisse-madras.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "90"
+    }
   },
   {
     "category": "1",
     "imageURL": "http://yogaforwomen.info/wp-content/uploads/2014/08/Kundalini-yoga.jpg",
     "title": "Kundalini Yoga - 45 min",
     "description": "Use ancient breathing techniques to achieve complete relaxation",
-    "distance": "1.7 miles"
+    "distance": "1.7 miles",
+    "reward" : {
+      "title" : "Kundalini Yoga Co-Op - 2 Weeks Free Membership",
+      "imageURL" : "http://s3-media4.fl.yelpcdn.com/bphoto/MLGurCMH5qZ_F_SiBiQM_A/o.jpg",
+      "status" : "Adam and Bill are ahead of you for this reward",
+      "progress" : "90"
+    }
   },
   {
     "category": "1",
     "imageURL": "http://d2wz2qkj9kqukm.cloudfront.net/images/course/713/title/cook_la_cooking_school_53aed55f0bccd.jpg",
     "title": "Cooking Class",
     "description": "An introduction to the savory cuisine of the Mediterranean!",
-    "distance": "0.3 miles"
+    "distance": "0.3 miles",
+    "reward" : {
+      "title" : "Hands On Gourmet - one free session",
+      "imageURL" : "http://www.handsongourmet.com/wp-content/uploads/2012/08/HandsOnGourmet_cooking-940x500.jpg",
+      "status" : "Bill is ahead of you for this reward",
+      "progress" : "60"
+    }
   },
   {
     "category": "1",
@@ -39,14 +63,26 @@
     "imageURL": "http://www.dailyhiit.com/hiit-blog/wp-content/uploads/2013/10/running-wallpaper-41.jpg",
     "title": "Interval Running - 10 minutes",
     "description": "Short, intense runs followed by equal or slightly longer recovery runs.",
-    "distance": "1 mile"
+    "distance": "1 mile",
+    "reward" : {
+      "title" : "30$ off on New Balance running shoes",
+      "imageURL" : "https://jeracgallero.files.wordpress.com/2014/11/2.jpg",
+      "status" : "Adam is ahead of you for this reward",
+      "progress" : "45"
+    }
   },
   {
     "category": "2",
     "imageURL": "http://www.lcblegends.com/wp-content/uploads/2015/02/LCB-Legends-Bowling.png",
     "title": "Bowling Meetup - 90 minutes",
     "description": "A series of sports or leisure activities in which a player rolls or throws a bowling ball towards a target",
-    "distance": "2 miles"
+    "distance": "2 miles",
+    "reward" : {
+      "title" : "Free pass at Lucky Strike",
+      "imageURL" : "http://getlocalma.com/wp-content/uploads/2013/08/Academy-Lanes-725-S-Main-St-Haverhill-MA-01835.jpg",
+      "status" : "You are ahead of all your co-workers",
+      "progress" : "75"
+    }
   },
   {
     "category": "2",
@@ -54,6 +90,7 @@
     "title": "Ballroom Dancing Class - 60 minutes",
     "description": "A set of partner dances, which are enjoyed both socially and competitively around the world",
     "distance": "3 miles"
+
   },
   {
     "category": "2",
