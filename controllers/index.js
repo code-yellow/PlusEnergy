@@ -4,7 +4,7 @@
 
 
 var IndexModel = require('../models/index');
-
+var activities = require('../models/activities.json');
 var Client = require('node-rest-client').Client;
 var client = new Client();
 var async = require('async');
@@ -12,6 +12,8 @@ var async = require('async');
 module.exports = function (router) {
 
     router.get('/', function (req, res) {
+
+        console.log("DHONI :: "+activities.length);
 
         var model = new IndexModel();
 
@@ -91,8 +93,8 @@ module.exports = function (router) {
                     console.log("PREV "+previous);
 
                     var trend = {
-                        current : current / entryArray.length/2,
-                        previous : previous / entryArray.length/2,
+                        current : (current / entryArray.length/2).toFixed(2),
+                        previous : (previous / entryArray.length/2).toFixed(2),
                         trend : "POS"
                     };
 
@@ -101,14 +103,28 @@ module.exports = function (router) {
                 }
 
                 var weightData = result.weight;
-                console.log("WT DATA"+ weightData.id);
                 var stepsData = result.steps;
+                var sleepData = result.sleep;
+                var moodData = result.mood;
+
                 aggregate(weightData);
                 aggregate(stepsData);
+                aggregate(sleepData);
+                aggregate(moodData);
+
+                var selectedCategory = "1";
+                var activitySuggestions = [];
+
+                //parse json array to get category
+
 
                 resp = {
                     weightData : weightData,
-                    stepsData : stepsData
+                    stepsData : stepsData,
+                    sleepData : sleepData,
+                    moodData : moodData,
+                    category : selectedCategory,
+                    activitySuggestion : activitySuggestions
                 };
 
                 res.render('index', resp);
@@ -116,37 +132,4 @@ module.exports = function (router) {
         );
 
     });
-
-    /*router.get('/', function (req, res) {
-
-        var loginBody = {
-            username : "mark.taylor",
-            password : "Going4ther$"
-        };
-
-        var loginRequest = JSON.stringify(loginBody);
-
-        var options = {
-            headers : {
-                'Content-Type' : 'application/json',
-                'Authorization' : 'Bearer AmgRdwoxjKzvkhPsxDEvFsmLnmd0'
-            }
-        };
-
-        var LOGIN_URL = "https://gateway.api.pcftest.com:9004/v1/oauth2/authorize/login";
-
-        var args = {
-            data: loginBody,
-            headers:{"Content-Type": "application/json","Authorization" : "Bearer lKIiSdfhJOnPuogcyh7L8O99szSb"}
-        };
-
-        client.post(LOGIN_URL, args, function(data,response) {
-            console.log('DATA '+JSON.stringify(data));
-            res.render('index', model);
-
-        });
-
-
-    });*/
-
 };

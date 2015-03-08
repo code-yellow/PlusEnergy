@@ -1,0 +1,142 @@
+[
+  {
+    "category": "1",
+    "imageURL": "http://i.huffpost.com/gen/1405484/thumbs/o-MEDITATION-facebook.jpg",
+    "title": "Meditation - 30 min",
+    "description": "Exploration of the intimate connection of the mind and body. You will leave this class feeling relaxed and content.",
+    "distance": "0.5 miles"
+  },
+  {
+    "category": "1",
+    "imageURL": "http://upload.wikimedia.org/wikipedia/en/archive/8/8f/20140209164049!Henri_Matisse_Self-Portrait_in_a_Striped_T-shirt_(1906).jpg",
+    "title": "Visit museum gallery - 30 min",
+    "description": "Your local Dallas Modern Art museum is hosting an exhibit on Matisse! Go check it out and learn about his mastery of the language of color. ",
+    "distance": "1.5 miles"
+  },
+  {
+    "category": "1",
+    "imageURL": "http://yogaforwomen.info/wp-content/uploads/2014/08/Kundalini-yoga.jpg",
+    "title": "Kundalini Yoga - 45 min",
+    "description": "Use ancient breathing techniques to achieve complete relaxation",
+    "distance": "1.7 miles"
+  },
+  {
+    "category": "1",
+    "imageURL": "http://d2wz2qkj9kqukm.cloudfront.net/images/course/713/title/cook_la_cooking_school_53aed55f0bccd.jpg",
+    "title": "Cooking Class",
+    "description": "An introduction to the savory cuisine of the Mediterranean!",
+    "distance": "0.3 miles"
+  },
+  {
+    "category": "1",
+    "imageURL": "http://www.shoreculturalcentre.com/Resources/Pictures/paint%20brushes.jpg",
+    "title": "Painting/Sculpture Class",
+    "description": "Exploration of the min",
+    "distance": "0.8 miles"
+  },
+  {
+    "category": "2",
+    "imageURL": "http://www.dailyhiit.com/hiit-blog/wp-content/uploads/2013/10/running-wallpaper-41.jpg",
+    "title": "Interval Running - 10 minutes",
+    "description": "Short, intense runs followed by equal or slightly longer recovery runs.",
+    "distance": "1 mile"
+  },
+  {
+    "category": "2",
+    "imageURL": "http://www.lcblegends.com/wp-content/uploads/2015/02/LCB-Legends-Bowling.png",
+    "title": "Bowling Meetup - 90 minutes",
+    "description": "A series of sports or leisure activities in which a player rolls or throws a bowling ball towards a target",
+    "distance": "2 miles"
+  },
+  {
+    "category": "2",
+    "imageURL": "http://www.blacktiedancestudio.com/wordpress/wordpress/wp-content/uploads/2014/04/tc_012807_0032.jpg",
+    "title": "Ballroom Dancing Class - 60 minutes",
+    "description": "A set of partner dances, which are enjoyed both socially and competitively around the world",
+    "distance": "3 miles"
+  },
+  {
+    "category": "2",
+    "imageURL": "http://grilloservices.com/wp-content/uploads/2011/11/Portrait-of-a-family-gardening..jpg",
+    "title": "Community Gardening - 90 minutes",
+    "description": "Builds community by increasing and enhancing community gardening and greening across the community ",
+    "distance": "1.4 miles"
+  },
+  {
+    "category": "2",
+    "imageURL": "https://s-media-cache-ak0.pinimg.com/originals/34/b5/e9/34b5e9f5f238a1692e8a02ee0386b3cc.jpg",
+    "title": "Acroyoga Class - 45 minutes",
+    "description": "A physical practice which combines yoga and acrobatics",
+    "distance": "0.8 miles"
+  },
+  {
+    "category": "3",
+    "imageURL": "children",
+    "title": "Water polo at local club - 1.5 hours",
+    "description": "At the local community swimming pool, playing pick-up water polo",
+    "distance": "1.2 miles"
+  },
+  {
+    "category": "3",
+    "imageURL": "children",
+    "title": "Power yoga - 1 hour",
+    "description": "An intensive yoga class focused on holding poses to build strength in the core",
+    "distance": "0.4 miles"
+  },
+  {
+    "category": "3",
+    "imageURL": "children",
+    "title": "Pilates reformer - 1 hour",
+    "description": "Pilates on the reformer to exercise muscles that are hard to strengthen and lengthen on the mat",
+    "distance": "0.6 miles"
+  },
+  {
+    "category": "3",
+    "imageURL": "children",
+    "title": "Barre burn - 1 hour",
+    "description": "Exercises are drawn from Ballet to strengthen the core muscles and to re-align and re-balance the body anatomy and muscles",
+    "distance": "0.9 miles"
+  },
+  {
+    "category": "3",
+    "imageURL": "children",
+    "title": "City hiking meetup - 1 hour",
+    "description": "Joining the local meetup for a hiking path",
+    "distance": "1.2 miles"
+  },
+  {
+    "category": "4",
+    "imageURL": "children",
+    "title": "Mixed martial arts - 2 hours",
+    "description": "A standard Mixed Martial Arts class combining drills and then sparring in striking and grappling",
+    "distance": "2 miles"
+  },
+  {
+    "category": "4",
+    "imageURL": "children",
+    "title": "Soul cycle - 1.5 hours",
+    "description": "Rhythmic cycling that makes it a dynamic and challenging workout",
+    "distance": "1.1 miles"
+  },
+  {
+    "category": "4",
+    "imageURL": "children",
+    "title": "Local Nike running group - 1 hour",
+    "description": "Meet at the Nike store to join the running group that jogs around the city",
+    "distance": "0.7 miles"
+  },
+  {
+    "category": "4",
+    "imageURL": "children",
+    "title": "Kickboxing - 1 hour",
+    "description": "A high octane workout that involves drilling and sparring",
+    "distance": "1.5 miles"
+  },
+  {
+    "category": "4",
+    "imageURL": "children",
+    "title": "Rowing at the local club - 45 minutes",
+    "description": "Join the local rowing club for an intense workout on the river",
+    "distance": "0.5 miles"
+  }
+]
