@@ -115,6 +115,14 @@ module.exports = function (router) {
                 var selectedCategory = "1";
                 var activitySuggestions = [];
 
+                activities.forEach(function(activity){
+                    if(activity.category === selectedCategory) {
+                        activitySuggestions.push(activity);
+                    }
+                });
+
+                console.log("VIRAT "+activitySuggestions.length);
+
                 //parse json array to get category
 
 
