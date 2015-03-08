@@ -81,9 +81,7 @@ module.exports = function (router) {
                 }
             },function(err, result) {
 
-
-
-                function aggregate(param) {
+                function aggregate(param, isHighPos) {
 
                     var total = 0;
                     var current = 0;
@@ -109,6 +107,12 @@ module.exports = function (router) {
                         trend : "POS"
                     };
 
+                    if(isHighPos) {
+                        trend.wt = (current > previous);
+                    } else {
+                        trend.wt = (current < previous);
+                    }
+
                     param.trend = trend;
 
                 }
@@ -118,15 +122,46 @@ module.exports = function (router) {
                 var sleepData = result.sleep;
                 var moodData = result.mood;
 
-                aggregate(weightData);
-                aggregate(stepsData);
-                aggregate(sleepData);
-                aggregate(moodData);
+                aggregate(weightData, false);
+                aggregate(stepsData, true);
+                aggregate(sleepData, true);
+                aggregate(moodData, false);
 
-                var selectedCategory = "1";
+                var kpiCat = 0;
+
+                if(weightData.trend.wt) {
+                    kpiCat++;
+                }
+                if(stepsData.trend.wt) {
+                    kpiCat++;
+                }
+                if(sleepData.trend.wt) {
+                    kpiCat++;
+                }
+                if(moodData.trend.wt) {
+                    kpiCat++;
+                }
+
+                console.log("TREND WEIGHT :: "+weightData.trend.wt);
+                console.log("TREND STEPS :: "+stepsData.trend.wt);
+                console.log("TREND SLEEP :: "+sleepData.trend.wt);
+                console.log("TREND MOOD :: "+moodData.trend.wt);
+
+                //narrow down on a trend
+                console.log("TWITTER CAT "+result.socialFeed);
+
+                var finalCategory;
+
+                if(parseInt(result.socialFeed) > kpiCat)
+                    finalCategory = result.socialFeed;
+                else
+                    finalCategory = kpiCat;
+
+                var selectedCategory = finalCategory;
                 var activitySuggestions = [];
 
                 activities.forEach(function(activity){
+                    console.log(activity.category);
                     if(activity.category === selectedCategory) {
                         activitySuggestions.push(activity);
                     }

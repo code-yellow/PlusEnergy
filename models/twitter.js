@@ -49,16 +49,16 @@ var Twitter = function () {
                 console.log(data[0].text);
 
                 if(data[0].text.indexOf("yoga") > -1) {
-                    cat = 1;
+                    cat = "1";
                 }
                 if(data[0].text.indexOf("garden") > -1) {
-                    cat = 2;
+                    cat = "2";
                 }
                 if(data[0].text.indexOf("hiking") > -1) {
-                    cat = 3;
+                    cat = "3";
                 }
                 if(data[0].text.indexOf("mma") > -1) {
-                    cat = 4;
+                    cat = "4";
                 }
                 callback(null, cat);
             }
